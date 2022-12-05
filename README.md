@@ -1,3 +1,1 @@
-# rsschool-cv
-
-[CV Link](https://htmlkin.github.io/rsschool-cv/)
+https://htmlkin.github.io/rsschool-cv/
