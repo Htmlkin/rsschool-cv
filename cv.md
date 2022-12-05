@@ -11,8 +11,13 @@ Discord: Serhii Mamontov (@Htmlkin)
 
 ## About Me
 
-In 2007 I graduated from the Computer Academy at the Faculty of Computer Graphics and Internet Technologies.
-My goal is to become a good front-end developer.
+In 2007 I graduated from the Computer Academy at the Faculty of Computer Graphics and Internet Technologies. After the academy, I went freelance.
+My main focus was html + css, but I also did design for websites, and did a little 3d.
+
+At the beginning of 2021, I decided to achieve more and become a full-time developer.
+In the same year, I took several courses on the Udemy platform.
+
+My goal is to become a great front-end developer, professional, and get a job in a company in Spain.
 
 ### Skills
 
