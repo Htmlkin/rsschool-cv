@@ -24,6 +24,10 @@ My goal is to become a good front-end developer.
 -   Flexbox, CSS Grid
 -   Design in Figma
 
+### Code examples and some projects
+
+[My Repo](https://github.com/Htmlkin?tab=repositories 'Code Examples')
+
 ### Languages
 
 -   English (A1 elementary)
