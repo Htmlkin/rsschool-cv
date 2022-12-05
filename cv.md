@@ -2,9 +2,9 @@
 
 ![My Photo](https://media-exp1.licdn.com/dms/image/D4D03AQHsc-n_VNEekA/profile-displayphoto-shrink_800_800/0/1664271210686?e=1675900800&v=beta&t=IoyRI0d1baymejo2G2qPb-pLxdLZV_18-pviCXnKNeA)
 
-E-Mail: <mail@htmlkin.com>
-Telegram: @htmlkin
-Discord: Serhii Mamontov (@Htmlkin)
+---
+
+**E-Mail:** <mail@htmlkin.com> | **Telegram:** @htmlkin | **Discord:** Serhii Mamontov (@Htmlkin)
 29003 Málaga, Spain
 
 ---
