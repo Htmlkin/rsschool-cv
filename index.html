@@ -7,17 +7,218 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serhii Mamontov - CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        Header
+        <div class="container">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#uno" class="nav-link">About</a></li>
+                    <li><a href="#dos" class="nav-link">Skills</a></li>
+                    <li><a href="#tres" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        Content
+        <div class="container">
+            <div class="name">
+                <div class="whoiam">
+                    <h1>Serhii Mamontov</h1>
+                    <p class="prof">Front-end Developer</p>
+                </div>
+
+                <img class="photo"
+                    src="https://media-exp1.licdn.com/dms/image/D4D03AQHsc-n_VNEekA/profile-displayphoto-shrink_800_800/0/1664271210686?e=1675900800&v=beta&t=IoyRI0d1baymejo2G2qPb-pLxdLZV_18-pviCXnKNeA"
+                    alt="My photo">
+
+                <div class="circle"></div>
+            </div>
+
+            <ul class="contact">
+                <li class="contact__item"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" fill="none" viewBox="0 0 22 21">
+                        <rect width="22" height="21" fill="#4A4A4A" rx="10.5" />
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.324"
+                            d="M5.44 6.658 11 11.027l5.957-4.369M9.014 10.96 5.44 14.601m11.12-.331-3.971-3.64m-6.355 4.627a1.589 1.589 0 0 1-1.588-1.588V7.452c0-.877.711-1.588 1.588-1.588h9.532c.877 0 1.588.711 1.588 1.588v6.216a1.59 1.59 0 0 1-1.588 1.59H6.234Z" />
+                    </svg>
+                    mail@htmlkin.com</li>
+                <li class="contact__item"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" fill="none" viewBox="0 0 22 21">
+                        <path fill="#4A4A4A" d="M11.3 21c5.8 0 10.5-4.701 10.5-10.5S17.1 0 11.3 0C5.503 0 .8 4.701.8 10.5S5.503 21 11.3 21Z" />
+                        <path fill="#000" d="M9.295 14.948c-.344 0-.286-.128-.404-.45l-1.012-3.27 7.787-4.538" />
+                        <path fill="#000" d="M9.295 14.948c.257 0 .371-.116.515-.254l1.373-1.32-1.713-1.021" />
+                        <path fill="#000"
+                            d="m9.485 12.366 4.197 3.158c.479.27.825.13.944-.452l1.708-8.2c.175-.714-.267-1.038-.725-.826L5.577 9.986c-.685.28-.681.668-.125.842l2.574.818 5.96-3.83c.282-.173.54-.08.328.112" />
+                        <defs>
+                            <linearGradient x1="9.585" x2="11.216" y1="10.877" y2="16.063" gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="#000" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    @htmlkin</li>
+                <li class="contact__item"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" fill="none" viewBox="0 0 22 21">
+                        <rect width="22" height="21" fill="#4a4a4a" rx="10.5" />
+                        <path fill="#000"
+                            d="M16.545 5.417a13.195 13.195 0 0 0-3.257-1.01.05.05 0 0 0-.052.025c-.141.25-.297.576-.406.833a12.181 12.181 0 0 0-3.658 0 8.426 8.426 0 0 0-.412-.833.051.051 0 0 0-.052-.025 13.158 13.158 0 0 0-3.257 1.01.047.047 0 0 0-.021.019c-2.074 3.099-2.643 6.121-2.364 9.107a.06.06 0 0 0 .02.037 13.268 13.268 0 0 0 3.996 2.02.052.052 0 0 0 .056-.019 9.48 9.48 0 0 0 .818-1.33.05.05 0 0 0-.028-.07 8.735 8.735 0 0 1-1.248-.595.051.051 0 0 1-.005-.085c.084-.063.168-.128.248-.194a.05.05 0 0 1 .051-.007c2.619 1.195 5.454 1.195 8.041 0a.05.05 0 0 1 .053.006c.08.066.164.132.248.195a.051.051 0 0 1-.004.085c-.399.233-.813.43-1.249.595a.051.051 0 0 0-.027.07c.24.466.514.91.817 1.33a.05.05 0 0 0 .056.018 13.224 13.224 0 0 0 4.001-2.019.052.052 0 0 0 .021-.037c.334-3.451-.559-6.45-2.366-9.107a.04.04 0 0 0-.02-.019Z" />
+                        <path fill="#4a4a4a"
+                            d="M6.909 11.112c0 .889.65 1.613 1.438 1.613.8 0 1.438-.724 1.438-1.613.012-.882-.631-1.612-1.438-1.612-.801 0-1.438.723-1.438 1.612Zm5.316 0c0 .889.65 1.613 1.438 1.613.807 0 1.438-.724 1.438-1.613.013-.882-.63-1.612-1.438-1.612-.8 0-1.438.723-1.438 1.612Z" />
+                    </svg>
+                    Serhii Mamontov (@Htmlkin)</li>
+                <li class="contact__item"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" fill="none" viewBox="0 0 22 21">
+                        <rect width="22" height="21" fill="#4A4A4A" rx="10.5" />
+                        <path fill="#000"
+                            d="M16.622 11.125a.625.625 0 0 0 0-1.25v1.25Zm-.25-.625A5.372 5.372 0 0 1 11 15.872v1.25a6.621 6.621 0 0 0 6.621-6.622h-1.25ZM11 15.872A5.372 5.372 0 0 1 5.628 10.5h-1.25A6.621 6.621 0 0 0 11 17.12v-1.25ZM5.628 10.5A5.372 5.372 0 0 1 11 5.128v-1.25A6.621 6.621 0 0 0 4.379 10.5h1.249ZM11 5.128a5.372 5.372 0 0 1 5.372 5.372h1.25A6.621 6.621 0 0 0 11 3.879v1.249Zm0 10.744c-.156 0-.353-.07-.587-.296-.237-.229-.48-.59-.696-1.086-.433-.99-.716-2.4-.716-3.99h-1.25c0 1.721.305 3.31.822 4.49.258.59.58 1.107.972 1.484.393.381.886.647 1.455.647v-1.25ZM9.001 10.5c0-1.59.283-3 .716-3.99.217-.495.459-.857.696-1.086.234-.227.431-.296.587-.296v-1.25c-.569 0-1.062.267-1.455.647-.391.378-.714.895-.972 1.484-.517 1.182-.821 2.77-.821 4.49h1.25ZM11 17.12c.569 0 1.062-.266 1.455-.647.391-.377.714-.894.972-1.483.517-1.182.821-2.77.821-4.491h-1.25c0 1.59-.282 3-.715 3.99-.217.495-.459.857-.696 1.086-.234.226-.431.296-.587.296v1.25Zm3.248-6.621c0-1.721-.304-3.31-.82-4.49-.259-.59-.582-1.107-.973-1.485-.393-.38-.886-.646-1.455-.646v1.249c.155 0 .353.07.587.296.237.229.479.59.696 1.086.433.99.716 2.4.716 3.99h1.25Zm-9.245.625h11.619v-1.25H5.003v1.25Z" />
+                    </svg>
+
+                    29003 Málaga, Spain</li>
+            </ul>
+
+            <section class="section about" id="uno">
+                <h2>About Me</h2>
+                <p>In 2007 I graduated from the Computer Academy at the Faculty of Computer Graphics and Internet Technologies. After the academy,
+                    I
+                    went freelance. My main focus was html + css, but I also did design for websites, and did a little 3d.
+
+                    At the beginning of 2021, I decided to achieve more and become a full-time developer. In the same year, I took several courses
+                    on
+                    the
+                    Udemy platform.
+
+                    My goal is to become a great front-end developer, professional, and get a job in a company in Spain.</p>
+            </section>
+
+            <section class="section skills" id="dos">
+                <h2>Skills</h2>
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="none" viewBox="0 0 20 22">
+                            <path stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m10.21 21 8.314-4.8V6.6L10.21 1.8 1.896 6.6v9.6L10.21 21Zm0 0v-9m0 0-7.8-4.8m7.8 4.8 7.8-4.8" />
+                        </svg>HTML5 / CSS3</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="none" viewBox="0 0 20 22">
+                            <path stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m10.21 21 8.314-4.8V6.6L10.21 1.8 1.896 6.6v9.6L10.21 21Zm0 0v-9m0 0-7.8-4.8m7.8 4.8 7.8-4.8" />
+                        </svg>SCSS</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="none" viewBox="0 0 20 22">
+                            <path stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m10.21 21 8.314-4.8V6.6L10.21 1.8 1.896 6.6v9.6L10.21 21Zm0 0v-9m0 0-7.8-4.8m7.8 4.8 7.8-4.8" />
+                        </svg>Figma to Responsive HTML/CSS</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="none" viewBox="0 0 20 22">
+                            <path stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m10.21 21 8.314-4.8V6.6L10.21 1.8 1.896 6.6v9.6L10.21 21Zm0 0v-9m0 0-7.8-4.8m7.8 4.8 7.8-4.8" />
+                        </svg>PSD to Responsive HTML/CSS</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="none" viewBox="0 0 20 22">
+                            <path stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m10.21 21 8.314-4.8V6.6L10.21 1.8 1.896 6.6v9.6L10.21 21Zm0 0v-9m0 0-7.8-4.8m7.8 4.8 7.8-4.8" />
+                        </svg>JavaScript</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="none" viewBox="0 0 20 22">
+                            <path stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m10.21 21 8.314-4.8V6.6L10.21 1.8 1.896 6.6v9.6L10.21 21Zm0 0v-9m0 0-7.8-4.8m7.8 4.8 7.8-4.8" />
+                        </svg>Flexbox, CSS Grid</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="none" viewBox="0 0 20 22">
+                            <path stroke="#1a1a1a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m10.21 21 8.314-4.8V6.6L10.21 1.8 1.896 6.6v9.6L10.21 21Zm0 0v-9m0 0-7.8-4.8m7.8 4.8 7.8-4.8" />
+                        </svg>Design in Figma</li>
+                </ul>
+            </section>
+
+            <section class="section code">
+                <h2>Code examples and some projects</h2>
+                <pre class="paste-code"><code>
+                    import React, { Component } from 'react';
+                    import AddHeroModal from '../add-hero-modal/';
+                    import './add-hero-block.css';
+                    
+                    export default class AddHeroBlock extends Component {
+                        constructor(props) {
+                            super(props);
+                            this.state = {
+                                className: 'add__form',
+                            };
+                        }
+                    
+                        render() {
+                            const { className } = this.state;
+                    
+                            const showAdd = () => {
+                                if (className.includes('show')) {
+                                    this.setState({ className: 'add__form' });
+                                } else {
+                                    this.setState({ className: 'add__form show' });
+                                }
+                            };
+                    
+                        }
+                    }
+                </code></pre>
+                <ul class="projects">
+                    <li>
+                        <a href="https://github.com/Htmlkin/react_apollo">React + Apollo Project</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Htmlkin/marvel_heros">Marvel Heroes List</a>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="section languages" id="tres">
+                <h2>Languages</h2>
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" fill="none" viewBox="0 0 22 21">
+                            <rect width="22" height="21" fill="#1a1a1a" rx="10.5" />
+                            <path fill="#000"
+                                d="M5.085 14V7.266h4.538V8.44H6.509v1.604h2.88v1.174H6.51v1.608h3.127V14h-4.55Zm11.302-6.734V14h-1.23l-2.93-4.238h-.048V14h-1.424V7.266h1.25L14.91 11.5h.06V7.266h1.416Z" />
+                        </svg>
+                        English (A1 elementary)</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" fill="none" viewBox="0 0 22 21">
+                            <rect width="22" height="21" fill="#1a1a1a" rx="10.5" />
+                            <path fill="#000"
+                                d="M5.585 14V7.266h4.538V8.44H7.009v1.604h2.88v1.174H7.01v1.608h3.127V14h-4.55Zm9.323-4.797a.832.832 0 0 0-.339-.619c-.2-.146-.47-.22-.812-.22a1.55 1.55 0 0 0-.588.099.828.828 0 0 0-.369.266.641.641 0 0 0-.125.388.558.558 0 0 0 .076.316c.057.09.135.167.233.233.099.064.213.12.342.168.13.046.268.085.415.118l.605.145c.293.066.563.153.809.263.245.11.458.245.638.405.18.16.318.348.417.565.1.217.152.466.155.746-.003.413-.108.77-.316 1.072-.206.3-.504.534-.894.7-.388.165-.856.247-1.404.247-.544 0-1.018-.083-1.42-.25a2.08 2.08 0 0 1-.941-.74c-.224-.328-.341-.735-.352-1.22h1.377c.016.226.08.415.195.566.116.15.27.262.463.339.195.075.416.112.661.112.241 0 .45-.035.628-.105a.961.961 0 0 0 .418-.293.675.675 0 0 0 .148-.43.56.56 0 0 0-.135-.382 1.023 1.023 0 0 0-.388-.263 3.942 3.942 0 0 0-.622-.198l-.733-.184c-.568-.138-1.016-.354-1.345-.648-.329-.293-.492-.689-.49-1.187a1.765 1.765 0 0 1 .326-1.068c.221-.305.525-.543.91-.714a3.215 3.215 0 0 1 1.316-.256c.5 0 .936.085 1.309.256.374.171.666.41.874.714.209.305.316.657.323 1.059h-1.365Z" />
+                        </svg>
+                        Spanish (A1 elementary)</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" fill="none" viewBox="0 0 22 21">
+                            <rect width="22" height="21" fill="#1a1a1a" rx="10.5" />
+                            <path fill="#000"
+                                d="M8.745 7.266h1.424v4.373c0 .491-.118.92-.352 1.29a2.354 2.354 0 0 1-.977.86c-.419.204-.906.306-1.463.306-.56 0-1.048-.102-1.467-.305a2.354 2.354 0 0 1-.976-.862c-.233-.368-.349-.798-.349-1.289V7.266H6.01v4.252c0 .256.056.484.168.683.114.2.274.357.48.47.206.115.446.172.72.172.276 0 .516-.057.72-.171a1.2 1.2 0 0 0 .477-.47c.114-.2.17-.428.17-.684V7.266ZM12.5 14h-1.526L13.3 7.266h1.834L17.456 14H15.93l-1.687-5.195h-.052L12.5 14Zm-.096-2.647h3.604v1.111h-3.604v-1.11Z" />
+                        </svg>Ukrainian (native)</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" fill="none" viewBox="0 0 22 21">
+                            <rect width="22" height="21" fill="#1a1a1a" rx="10.5" />
+                            <path fill="#000"
+                                d="M5.085 14V7.266h2.657c.509 0 .943.09 1.302.273.362.18.637.435.826.766.19.329.286.716.286 1.16 0 .448-.097.833-.29 1.155-.193.32-.472.565-.838.736-.364.171-.805.257-1.322.257H5.927v-1.144h1.549c.272 0 .497-.038.677-.112a.806.806 0 0 0 .401-.336c.09-.149.135-.334.135-.555 0-.224-.045-.412-.135-.566a.827.827 0 0 0-.404-.348 1.66 1.66 0 0 0-.68-.122h-.96V14H5.084Zm3.637-3.065L10.396 14H8.824l-1.638-3.065h1.536Zm6.6-3.67h1.423v4.374c0 .491-.117.92-.352 1.29a2.354 2.354 0 0 1-.976.86c-.42.204-.907.306-1.464.306-.559 0-1.047-.102-1.466-.305a2.354 2.354 0 0 1-.977-.862c-.232-.368-.348-.798-.348-1.289V7.266h1.423v4.252c0 .256.056.484.168.683.114.2.274.357.48.47.206.115.446.172.72.172.277 0 .517-.057.72-.171a1.2 1.2 0 0 0 .477-.47c.114-.2.171-.428.171-.684V7.266Z" />
+                        </svg>Russian (native)</li>
+                </ul>
+            </section>
+
+
+        </div>
     </main>
-    <footer>
-        Footer
+    <footer class="footer">
+        <div class="container">
+            <div class="logo"> <a href="https://rs.school/js/" target="_blank"><img src="http://htmlkin.com/img/rss_logo.svg" alt="RSSchool"></a>
+            </div>
+            <div class="year">December, 2022</div>
+            <div class="link"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 116 114">
+                    <g clip-path="url(#a)">
+                        <path fill="#1a1a1a" fill-rule="evenodd"
+                            d="M58 0C44.343-.005 31.13 4.932 20.726 13.927 10.323 22.92 3.41 35.386 1.223 49.089c-2.187 13.703.496 27.75 7.569 39.626 7.073 11.875 18.073 20.804 31.032 25.188 2.856.542 3.922-1.268 3.922-2.816 0-1.394-.047-5.991-.076-10.878-15.996 3.532-19.366-6.891-19.366-6.891-2.619-6.775-6.39-8.556-6.39-8.556-5.217-3.63.391-3.552.391-3.552 5.78.416 8.817 6.02 8.817 6.02 5.132 8.933 13.454 6.359 16.73 4.84.523-3.775 2.008-6.35 3.655-7.811-12.73-1.462-26.203-6.475-26.203-28.87-.085-5.817 2.04-11.444 5.932-15.708-.6-1.471-2.57-7.414.552-15.485 0 0 4.828-1.568 15.816 5.99a53.763 53.763 0 0 1 28.802 0c10.93-7.52 15.796-5.99 15.796-5.99 3.123 8.052 1.162 13.994.562 15.485 3.882 4.262 6 9.88 5.913 15.688 0 22.454-13.445 27.39-26.251 28.841 2.057 1.81 3.894 5.372 3.894 10.82 0 7.821-.057 14.121-.057 16.037 0 1.559 1.028 3.378 3.942 2.807 12.94-4.4 23.918-13.334 30.974-25.206 7.055-11.871 9.727-25.906 7.539-39.596-2.189-13.69-9.096-26.142-19.486-35.132C84.842 4.95 71.645.01 58 0Z"
+                            clip-rule="evenodd" />
+                        <path fill="#1a1a1a"
+                            d="M22.276 83.91c-.124.29-.572.378-.953.184-.38-.193-.657-.59-.523-.88.133-.29.58-.378.952-.184.371.193.657.59.514.88h.01Zm2.332 2.642c-.276.262-.809.136-1.18-.27a.901.901 0 0 1-.162-1.21c.285-.262.8-.136 1.18.27.381.407.448.969.162 1.21Zm2.266 3.368c-.352.252-.952 0-1.285-.503-.333-.503-.352-1.142 0-1.393.352-.252.952 0 1.285.493.334.494.353 1.152 0 1.404Zm3.143 3.252a1.068 1.068 0 0 1-1.208.038 1.082 1.082 0 0 1-.306-.299c-.505-.474-.648-1.142-.324-1.49.324-.349.952-.262 1.485.222.533.484.648 1.142.314 1.49l.038.04Zm4.246 1.888c-.143.455-.78.668-1.438.474-.657-.194-1.076-.736-.952-1.2.124-.465.78-.678 1.438-.474.657.203 1.076.735.952 1.2Zm4.704.348c0 .484-.533.88-1.22.89-.685.01-1.237-.367-1.246-.851-.01-.484.533-.88 1.228-.89.695-.01 1.238.377 1.238.851Zm4.379-.755c.086.474-.39.968-1.066 1.084-.676.116-1.285-.164-1.371-.639-.086-.474.4-.967 1.066-1.084.667-.116 1.286.165 1.371.64Z" />
+                    </g>
+                    <defs>
+                        <clipPath>
+                            <path fill="#1a1a1a" d="M0 0h115v114H0z" transform="translate(.5)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <a href="https://github.com/Htmlkin">@Htmlkin</a>
+            </div>
+
+        </div>
+
     </footer>
 </body>
 
